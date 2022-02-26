@@ -1,0 +1,80 @@
+.products{
+    height: 100vh;
+    min-width: 70vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.products__content{
+    display: flex;
+    flex-direction: row;
+    min-width: 70vw;
+}
+
+.products-section{
+    background:  #d5dad7;
+}
+
+.products__list{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 70px 0px 90px;
+
+    @include tablets{
+        padding:  0px 20px 0px 40px;
+    }
+
+    @include phones{
+        padding:  0px 10px 0px 25px;
+    }
+
+}
+
+.products__icon{
+    width: 100px; 
+    height: 100px;
+    background: #965290fb;
+    border-radius: 50%;    
+    
+    @include tablets{
+        width: 65px; 
+        height: 65px;
+    }
+}
+
+.products__item{
+    padding: 15px 0px 0px 0px;
+}
+
+.products__desc{
+    padding:  10px 0px 0px 0px;
+
+    @include tablets{
+        font-size: 12px;
+        padding:  5px 0px 0px 0px;
+    }
+}
+
+.products__logo{
+    min-height: 451px;
+    min-width: 291px;
+    position: relative;
+
+    @include tablets{
+        min-height: 300px;
+        min-width: 220px;
+    }
+}
+
+.products__desc{
+    color: rgb(87, 11, 110);
+    font-weight: bold;
+    margin: 0px 0px 0px -50px;
+
+    @include tablets{
+        margin: 0px 0px 0px 0px;
+    }
+}

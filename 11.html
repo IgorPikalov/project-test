@@ -1,0 +1,29 @@
+<script>
+    let date = new Date ('Feb 26 2022 18:48:00');
+
+    function counts() {
+    let now = new Date();
+    gap = date-now;
+
+    let minutes = Math.floor(gap / 1000 / 60);
+    let seconds = Math.floor(gap / 1000) % 60;
+
+    if(gap <= 0) {
+        minutes = minutes + 30;
+        seconds = seconds + 60;
+    }
+
+    document.getElementById('m').innerText = minutes;
+    document.getElementById('s').innerText = seconds;
+}
+counts();
+
+setInterval(counts, 1000);
+
+</script>
+
+<div class="form__time" id="group">
+    <span id="m" class="form__time--m"></span>
+    <span  class="form__time--min">:</span>
+    <span id="s" class="form__time--s"></span>
+</div>

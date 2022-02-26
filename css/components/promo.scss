@@ -1,0 +1,41 @@
+.promo{
+    min-width: 70vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.promo__content{
+    display: flex;
+    padding: 20px 0px 0px 0px;
+}
+
+.promo__subtitle{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    line-height: 1.7;
+}
+
+.promo__list{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0px 0px 0px;
+}
+
+.promo__item{
+    padding: 0px 75px 0px 0px;
+
+    &:last-child{
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+.promo__desc{
+    font-weight: bold;
+}
+
+.hero__button-section{
+    margin-top: 20px;
+}
