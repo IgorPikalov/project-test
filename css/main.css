@@ -95,7 +95,7 @@ h1, h2, h3, h4, p {
 
 #video {
   position: relative;
-  min-width: 100%;
+  min-width: 120%;
   min-height: 100%;
 }
 
@@ -412,7 +412,7 @@ h1, h2, h3, h4, p {
 }
 
 .hero__button-section {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .form-table {
@@ -595,8 +595,8 @@ input[type=number]:focus {
 
 .hero__buttom-form {
   width: 180px;
-  -webkit-transform: translate(50px);
-          transform: translate(50px);
+  -webkit-transform: translate(50px, -60px);
+          transform: translate(50px, -60px);
 }
 
 @media screen and (max-width: 768px) {
