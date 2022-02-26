@@ -193,7 +193,7 @@ h1, h2, h3, h4, p {
 }
 
 .products {
-  height: 100vh;
+  height: 115vh;
   min-width: 70vw;
   display: -webkit-box;
   display: -ms-flexbox;
